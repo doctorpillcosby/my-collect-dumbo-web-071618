@@ -8,4 +8,3 @@ def my_collect(array) # put argument(s) here
     result << yield(array[i]) # if block, then yield to block # also need to pass argument(s) to yield, otherwise block is operating on nil
     i += 1
   end
-result
