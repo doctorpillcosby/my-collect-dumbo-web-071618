@@ -7,4 +7,5 @@ def my_collect(array) # put argument(s) here
     result << yield(array[i]) 
     i += 1
   end
+  result
 end
