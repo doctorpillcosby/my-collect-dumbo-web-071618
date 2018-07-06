@@ -4,8 +4,7 @@ def my_collect(array) # put argument(s) here
   result = []
 
   while i < array.size
-    block_given? # optional
-    result << yield(array[i]) # if block, then yield to block # also need to pass argument(s) to yield, otherwise block is operating on nil
+    result << yield(array[i]) 
     i += 1
   end
 end
